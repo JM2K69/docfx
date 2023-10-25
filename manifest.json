@@ -16,7 +16,7 @@
       }
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.BuildOptions.yml",
       "output": {
         ".html": {
@@ -26,7 +26,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.AdditionalNotes.yml",
       "output": {
         ".html": {
@@ -36,7 +36,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.ApiParameter.yml",
       "output": {
         ".html": {
@@ -46,7 +46,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.ArgumentInfo.yml",
       "output": {
         ".html": {
@@ -56,7 +56,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.AttributeInfo.yml",
       "output": {
         ".html": {
@@ -66,7 +66,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.ExceptionInfo.yml",
       "output": {
         ".html": {
@@ -76,7 +76,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.ItemViewModel.yml",
       "output": {
         ".html": {
@@ -86,7 +86,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.LinkInfo.yml",
       "output": {
         ".html": {
@@ -96,7 +96,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.LinkType.yml",
       "output": {
         ".html": {
@@ -106,7 +106,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.MemberType.yml",
       "output": {
         ".html": {
@@ -116,7 +116,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.NamedArgumentInfo.yml",
       "output": {
         ".html": {
@@ -126,7 +126,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.PageViewModel.yml",
       "output": {
         ".html": {
@@ -136,7 +136,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.yml",
       "output": {
         ".html": {
@@ -146,7 +146,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.SyntaxLanguage.yml",
       "output": {
         ".html": {
@@ -156,7 +156,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.DataContracts.ManagedReference.yml",
       "output": {
         ".html": {
@@ -166,7 +166,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.Docset.yml",
       "output": {
         ".html": {
@@ -176,7 +176,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.Dotnet.DotnetApiCatalog.yml",
       "output": {
         ".html": {
@@ -186,7 +186,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.Dotnet.DotnetApiOptions.yml",
       "output": {
         ".html": {
@@ -196,7 +196,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.Dotnet.SymbolIncludeState.yml",
       "output": {
         ".html": {
@@ -206,7 +206,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.Dotnet.yml",
       "output": {
         ".html": {
@@ -216,7 +216,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.MemberLayout.yml",
       "output": {
         ".html": {
@@ -226,7 +226,7 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
+      "type": "ApiPage",
       "source_relative_path": "api/Docfx.yml",
       "output": {
         ".html": {
@@ -755,6 +755,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "spec/metadata_format_spec.md",
       "output": {
@@ -928,6 +931,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "tutorial/links_and_cross_references.md",
       "output": {
