@@ -324,6 +324,7 @@
   "_appName": "Seed",
   "_appTitle": "docfx seed website",
   "_enableSearch": true,
+  "pdf": true,
   "_systemKeys": [
     "uid",
     "isEii",
