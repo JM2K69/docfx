@@ -1633,6 +1633,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "pdf.md",
+      "output": {
+        ".html": {
+          "relative_path": "pdf.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "RestApi",
       "source_relative_path": "restapi/contacts_swagger2.json",
       "output": {
