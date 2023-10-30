@@ -647,6 +647,7 @@
   "_appTitle": "docfx seed website",
   "_enableSearch": true,
   "pdf": true,
+  "pdfTocPage": true,
   "_systemKeys": [
     "uid",
     "isEii",
