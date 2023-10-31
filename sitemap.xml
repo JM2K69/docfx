@@ -2,289 +2,289 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.BuildOptions.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.AdditionalNotes.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.ApiParameter.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.ArgumentInfo.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.AttributeInfo.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.ExceptionInfo.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.ItemViewModel.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.LinkInfo.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.LinkType.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.MemberType.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.NamedArgumentInfo.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.PageViewModel.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.SyntaxLanguage.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.DataContracts.ManagedReference.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.Docset.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.Dotnet.DotnetApiCatalog.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.Dotnet.DotnetApiOptions.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.Dotnet.SymbolIncludeState.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.Dotnet.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.MemberLayout.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/api/Docfx.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/basic-concepts.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/config.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/dotnet-api-docs.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/dotnet-yaml-format.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/markdown.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/pdf.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/rest-api-docs.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/table-of-contents.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/docs/template.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/extensions/packages.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/extensions/templates.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/extensions/tools.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/index.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/reference/docfx-cli-reference.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/reference/docfx-environment-variables-reference.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/reference/docfx-json-reference.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/spec/docfx_document_schema.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/spec/metadata_format_spec.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/spec/sdp_design_spec.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/tutorial/advanced_support_hyperlink.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/tutorial/howto_add_a_customized_post_processor.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/tutorial/howto_build_your_own_type_of_documentation_with_custom_plug-in.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/tutorial/intro_overwrite_files.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/tutorial/intro_template.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dotnet.github.io/docfx/tutorial/links_and_cross_references.html</loc>
-    <lastmod>2023-10-31T03:11:07+00:00</lastmod>
+    <lastmod>2023-10-31T04:10:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
