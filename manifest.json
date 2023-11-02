@@ -329,9 +329,36 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "docs/media/Program.cs",
+      "output": {
+        "resource": {
+          "relative_path": "docs/media/Program.cs"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/media/pdf-cover-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/media/pdf-cover-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/media/pdf-toc-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/media/pdf-toc-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/pdf.md",
       "output": {
