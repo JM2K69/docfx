@@ -93,35 +93,75 @@
         <article data-uid="">
 <h1 id="create-pdf-files">Create PDF Files</h1>
 
-<p>Docfx produces PDF files based on the TOC structure.</p>
-<h2 id="install-wkhtmltopdf">Install wkhtmltopdf</h2>
-<p>To build PDF files, first install <code>wkhtmltopdf</code> by downloading the latest binary from the <a href="https://wkhtmltopdf.org/downloads.html">official site</a> or install using chocolatey: <code>choco install wkhtmltopdf</code>.</p>
-<p>Make sure the <code>wkhtmltopdf</code> command is added to <code>PATH</code> environment variable and is available in the terminal.</p>
-<h2 id="pdf-config">PDF Config</h2>
-<p>Add a <code>pdf</code> section in <code>docfx.json</code>:</p>
+<p>Docfx can build PDF files from articles and API documentations.</p>
+<h2 id="enable-pdf">Enable PDF</h2>
+<p>To enable PDF for the whole site:</p>
+<ol>
+<li>Set the <code>pdf</code> global metadata to <code>true</code> in <code>docfx.json</code>:</li>
+</ol>
 <pre><code class="lang-json">{
-	&quot;pdf&quot;: {
-		&quot;content&quot;: [
-			{
-				&quot;files&quot;: [ &quot;**/*.{md,yml}&quot; ]
-			}
-		],
-		&quot;wkhtmltopdf&quot;: {
-			&quot;additionalArguments&quot;: &quot;--enable-local-file-access&quot;
+	&quot;build&quot;: {
+		&quot;globalMetadata&quot;: {
+			&quot;pdf&quot;: true
 		}
 	}
 }
 </code></pre>
-<p>Most of the config options are the same as <code>build</code> config. The <code>wkhtmltopdf</code> config contains additional details to control <code>wkhtmltopdf</code> behavior:</p>
+<ol start="2">
+<li><p>Run <code>docfx build</code> command to build the site. This command produces a site with a &quot;Download PDF&quot; button.</p>
+</li>
+<li><p>Run <code>docfx pdf</code> command to build the PDF files. This command creates a <code>toc.pdf</code> file for every TOC in the output directory.</p>
+</li>
+</ol>
+<p>PDF can also be configured per TOC directly in <code>toc.yml</code> files:</p>
+<pre><code class="lang-yaml">pdf: true
+items:
+- name: Getting Started
+  href: getting-started.md
+</code></pre>
+<p>In case the TOC file is auto-generated, use <a href="config.html#metadata">file metadata</a> to configure PDF per TOC file:</p>
+<pre><code class="lang-json">{
+	&quot;build&quot;: {
+		&quot;fileMetadata&quot;: {
+			&quot;pdf&quot;: {
+				&quot;api/**/toc.yml&quot;: true
+			}
+		}
+	}
+}
+</code></pre>
+<h2 id="pdf-metadata">PDF Metadata</h2>
+<p>These metadata applies to TOC files that controls behaviors of PDF generation.</p>
+<h3 id="pdf"><code>pdf</code></h3>
+<p>Indicates whether to generate PDF and shows the &quot;Download PDF&quot; button on the site.</p>
+<h3 id="pdffilename"><code>pdfFileName</code></h3>
+<p>Sets the PDF output file name. The default value is <code>toc.pdf</code>.</p>
+<h3 id="pdftocpage"><code>pdfTocPage</code></h3>
+<p>Indicates whether to include a &quot;Table of Contents&quot; pages at the beginning.</p>
+<h3 id="pdfcoverpage"><code>pdfCoverPage</code></h3>
+<p>A path to an HTML page relative to output root. The HTML page will be inserted at the beginning of the PDF file as cover page.</p>
+<h2 id="customize-pdf-pages">Customize PDF Pages</h2>
+<p>PDF rendering uses the same HTML site template. To customize PDF page styles, use the <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Printing">CSS print media</a>:</p>
+<pre><code class="lang-css">@media print {
+  /* All your print styles go here */
+}
+</code></pre>
+<p>To preview PDF rendering result, print the HTML page in the web browser, or set <em>&quot;Emulate CSS media type&quot;</em> to <em>print</em> in the rendering tab of browser developer tools.</p>
+<h3 id="customize-cover-page">Customize Cover Page</h3>
+<p>The site template adds a default margin and removes background graphics for pages in print mode. Use <code>@page { margin: 0 }</code> to remove the default margin and use <code>print-color-adjust: exact</code> to keep background graphics for cover pages.</p>
+<p>See <a href="https://raw.githubusercontent.com/dotnet/docfx/main/samples/seed/pdf.md">this example</a> on a PDF cover page that fills the whole page with background graphics:</p>
+<p><img src="./media/pdf-cover-page.png" alt="Alt text"></p>
+<h3 id="customize-toc-page">Customize TOC Page</h3>
+<p>When <code>pdfTocPage</code> is <code>true</code>, a Table of Content page is inserted at the beginning of the PDF file.</p>
+<p><img src="media/pdf-toc-page.png" alt="Alt text"></p>
+<p>You can customize the PDF page using the following CSS selectors:</p>
 <ul>
-<li><code>filePath</code>: Path to <code>wkhtmltopdf.exe</code>.</li>
-<li><code>additionalArguments</code>: Additional command line arguments passed to <code>wkhtmltopdf</code>. Usually needs <code>--enable-local-file-access</code> to allow access to local files.</li>
+<li><code>.pdftoc h1</code>: The &quot;Table of Contents&quot; heading.</li>
+<li><code>.pdftoc ul</code>: The TOC list.</li>
+<li><code>.pdftoc li</code>: The TOC list item.</li>
+<li><code>.pdftoc .page-number</code>: Page number.</li>
+<li><code>.pdftoc .spacer</code>: The dots between title and page number.</li>
 </ul>
-<p>Running <code>docfx</code> command againt the above configuration produces a PDF file for every TOC included in the <code>content</code> property. The PDF files are placed under the <code>_site_pdf</code> folder based on the TOC name.</p>
-<p>See <a href="https://github.com/dotnet/docfx/tree/main/samples/seed">this sample</a> on an example PDF config.</p>
-<h2 id="add-cover-page">Add Cover Page</h2>
-<p>A cover page is the first PDF page before the TOC page.</p>
-<p>To add a cover page, add a <code>cover.md</code> file alongside <code>toc.yml</code>. The content of <code>cover.md</code> will be rendered as the PDF cover page.</p>
 
 </article>
 
