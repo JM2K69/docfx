@@ -107,14 +107,14 @@
 <pre><code class="lang-bash">dotnet tool update -g docfx
 </code></pre>
 <p>To create a new docset, run:</p>
-<pre><code class="lang-bash">docfx init --quiet
+<pre><code class="lang-bash">docfx init
 </code></pre>
-<p>This command creates a new docset under the <code>docfx_project</code> directory. To build the docset, run:</p>
-<pre><code class="lang-bash">docfx docfx_project/docfx.json --serve
+<p>This command walks you through creating a new docfx project under the current working directory. To build the docset, run:</p>
+<pre><code class="lang-bash">docfx docfx.json --serve
 </code></pre>
 <p>Now you can preview the website on <a href="http://localhost:8080">http://localhost:8080</a>.</p>
 <p>To preview your local changes, save changes then run this command in a new terminal to rebuild the website:</p>
-<pre><code class="lang-bash">docfx docfx_project/docfx.json
+<pre><code class="lang-bash">docfx docfx.json
 </code></pre>
 <h2 id="publish-to-github-pages">Publish to GitHub Pages</h2>
 <p>Docfx produces static HTML files under the <code>_site</code> folder ready for publishing to any static site hosting servers.</p>
