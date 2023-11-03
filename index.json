@@ -107,7 +107,7 @@
   "api/Docfx.html": {
     "href": "api/Docfx.html",
     "title": "Namespace Docfx | docfx",
-    "keywords": "Namespace Docfx Namespaces Docfx.Build Docfx.DataContracts Docfx.Dotnet Docfx.Exceptions Docfx.Pdf Classes BuildOptions Provides options to be used with Docfx.Docset.Build(System.String,Docfx.BuildOptions). Docset Provides access to a set of documentations and their associated configs, compilations and models. Enums MemberLayout Specifies the layout of members."
+    "keywords": "Namespace Docfx Namespaces Docfx.Dotnet Classes BuildOptions Provides options to be used with Docfx.Docset.Build(System.String,Docfx.BuildOptions). Docset Provides access to a set of documentations and their associated configs, compilations and models. Enums MemberLayout Specifies the layout of members."
   },
   "docs/basic-concepts.html": {
     "href": "docs/basic-concepts.html",
